@@ -1,0 +1,8 @@
+Steps to run the app:
+
+1. Check if application is already active. Open browser and go to http://45.35.14.154/aerial_page
+2. Open command prompt and go to "C:\Users\jyothy" (cd C:\Users\jyothy)
+3. Activate virtual environment - Type - "vecv\Scripts\activate" press Enter.
+4. Run app in background using pythonw - 
+4.1. Go to C:\Users\jyothy\Desktop\New folder\geoflask using cmd
+4.2. Type "pythonw app.py" and press enter. Wait for few seconds and your app will be active.

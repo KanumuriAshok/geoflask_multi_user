@@ -1,0 +1,4065 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis saveUserFull="Jyothy" saveDateTime="2022-08-17T03:09:33" projectname="" saveUser="jyothy" version="3.20.0-Odense">
+  <homePath path=""/>
+  <title></title>
+  <autotransaction active="0"/>
+  <evaluateDefaultValues active="0"/>
+  <trust active="0"/>
+  <projectCrs>
+    <spatialrefsys>
+      <wkt>PROJCRS["OSGB36 / British National Grid",BASEGEOGCRS["OSGB36",DATUM["Ordnance Survey of Great Britain 1936",ELLIPSOID["Airy 1830",6377563.396,299.3249646,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4277]],CONVERSION["British National Grid",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",49,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",-2,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9996012717,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",400000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",-100000,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Engineering survey, topographic mapping."],AREA["United Kingdom (UK) - offshore to boundary of UKCS within 49°45'N to 61°N and 9°W to 2°E; onshore Great Britain (England, Wales and Scotland). Isle of Man onshore."],BBOX[49.75,-9,61.01,2.01]],ID["EPSG",27700]]</wkt>
+      <proj4>+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.9996012717 +x_0=400000 +y_0=-100000 +ellps=airy +units=m +no_defs</proj4>
+      <srsid>2437</srsid>
+      <srid>27700</srid>
+      <authid>EPSG:27700</authid>
+      <description>OSGB36 / British National Grid</description>
+      <projectionacronym>tmerc</projectionacronym>
+      <ellipsoidacronym>EPSG:7001</ellipsoidacronym>
+      <geographicflag>false</geographicflag>
+    </spatialrefsys>
+  </projectCrs>
+  <layer-tree-group>
+    <customproperties>
+      <Option/>
+    </customproperties>
+    <layer-tree-layer id="Google_Hybrid_35ef61a9_887e_4b03_b3bf_1339e8f90b3f" name="Google Hybrid" source="type=xyz&amp;zmin=0&amp;zmax=21&amp;url=https%3A//mt1.google.com/vt/lyrs%3Dy%26x%3D%7Bx%7D%26y%3D%7By%7D%26z%3D%7Bz%7D" legend_exp="" legend_split_behavior="0" patch_size="-1,-1" providerKey="wms" checked="Qt::Checked" expanded="1">
+      <customproperties>
+        <Option/>
+      </customproperties>
+    </layer-tree-layer>
+    <layer-tree-layer id="Ugnode_sn_f43d6e25_0d93_484a_bc88_5e6c5a376791" name="Ugnode_sn" source="./Ugnode_sn.shp" legend_exp="" legend_split_behavior="0" patch_size="-1,-1" providerKey="ogr" checked="Qt::Checked" expanded="1">
+      <customproperties>
+        <Option/>
+      </customproperties>
+    </layer-tree-layer>
+    <layer-tree-layer id="structures_b80a284a_c952_481e_a90d_1d88157ec7fd" name="structures" source="./structures.shp" legend_exp="" legend_split_behavior="0" patch_size="-1,-1" providerKey="ogr" checked="Qt::Checked" expanded="1">
+      <customproperties>
+        <Option/>
+      </customproperties>
+    </layer-tree-layer>
+    <layer-tree-layer id="referencepoints_ee7e484c_36cc_4338_98c6_84622b97f5fa" name="referencepoints" source="./referencepoints.shp" legend_exp="" legend_split_behavior="0" patch_size="-1,-1" providerKey="ogr" checked="Qt::Checked" expanded="1">
+      <customproperties>
+        <Option/>
+      </customproperties>
+    </layer-tree-layer>
+    <layer-tree-layer id="preprocessed_dp_d7924f12_5ec7_45b5_a6ef_2ce98198fa8b" name="preprocessed_dp" source="./preprocessed_dp.shp" legend_exp="" legend_split_behavior="0" patch_size="-1,-1" providerKey="ogr" checked="Qt::Checked" expanded="1">
+      <customproperties>
+        <Option/>
+      </customproperties>
+    </layer-tree-layer>
+    <layer-tree-layer id="poles_at_5mtrs_8ecce595_b97a_43be_8d8b_77e8457ec65a" name="poles_at_5mtrs" source="./poles_at_5mtrs.shp" legend_exp="" legend_split_behavior="0" patch_size="-1,-1" providerKey="ogr" checked="Qt::Checked" expanded="1">
+      <customproperties>
+        <Option/>
+      </customproperties>
+    </layer-tree-layer>
+    <layer-tree-layer id="pnboundary_b4bc9501_a247_485d_a512_a88eea9f546e" name="pnboundary" source="./pnboundary.shp" legend_exp="" legend_split_behavior="0" patch_size="-1,-1" providerKey="ogr" checked="Qt::Checked" expanded="1">
+      <customproperties>
+        <Option/>
+      </customproperties>
+    </layer-tree-layer>
+    <layer-tree-layer id="Mdu_931e2ee3_ec2f_4749_b6a7_19a4eae99713" name="Mdu" source="./Mdu.shp" legend_exp="" legend_split_behavior="0" patch_size="-1,-1" providerKey="ogr" checked="Qt::Checked" expanded="1">
+      <customproperties>
+        <Option/>
+      </customproperties>
+    </layer-tree-layer>
+    <layer-tree-layer id="googlepoles_d4b350e6_883e_4947_9613_98f96ffd98cd" name="googlepoles" source="./googlepoles.shp" legend_exp="" legend_split_behavior="0" patch_size="-1,-1" providerKey="ogr" checked="Qt::Checked" expanded="1">
+      <customproperties>
+        <Option/>
+      </customproperties>
+    </layer-tree-layer>
+    <layer-tree-layer id="cluster_bndry_c95d70d7_babd_420e_93e4_089755cdca43" name="cluster_bndry" source="./cluster_bndry.shp" legend_exp="" legend_split_behavior="0" patch_size="-1,-1" providerKey="ogr" checked="Qt::Checked" expanded="1">
+      <customproperties>
+        <Option/>
+      </customproperties>
+    </layer-tree-layer>
+    <layer-tree-layer id="cabinets_ca6c0e30_bc1a_459b_82f9_bdd756a66721" name="cabinets" source="./cabinets.shp" legend_exp="" legend_split_behavior="0" patch_size="-1,-1" providerKey="ogr" checked="Qt::Checked" expanded="1">
+      <customproperties>
+        <Option/>
+      </customproperties>
+    </layer-tree-layer>
+    <custom-order enabled="0">
+      <item>cabinets_ca6c0e30_bc1a_459b_82f9_bdd756a66721</item>
+      <item>cluster_bndry_c95d70d7_babd_420e_93e4_089755cdca43</item>
+      <item>googlepoles_d4b350e6_883e_4947_9613_98f96ffd98cd</item>
+      <item>Mdu_931e2ee3_ec2f_4749_b6a7_19a4eae99713</item>
+      <item>pnboundary_b4bc9501_a247_485d_a512_a88eea9f546e</item>
+      <item>poles_at_5mtrs_8ecce595_b97a_43be_8d8b_77e8457ec65a</item>
+      <item>preprocessed_dp_d7924f12_5ec7_45b5_a6ef_2ce98198fa8b</item>
+      <item>referencepoints_ee7e484c_36cc_4338_98c6_84622b97f5fa</item>
+      <item>structures_b80a284a_c952_481e_a90d_1d88157ec7fd</item>
+      <item>Ugnode_sn_f43d6e25_0d93_484a_bc88_5e6c5a376791</item>
+      <item>Google_Hybrid_35ef61a9_887e_4b03_b3bf_1339e8f90b3f</item>
+    </custom-order>
+  </layer-tree-group>
+  <snapping-settings tolerance="12" scaleDependencyMode="0" type="1" unit="1" self-snapping="0" minScale="0" maxScale="0" enabled="0" intersection-snapping="0" mode="2">
+    <individual-layer-settings>
+      <layer-setting tolerance="12" id="referencepoints_ee7e484c_36cc_4338_98c6_84622b97f5fa" units="1" type="1" minScale="0" maxScale="0" enabled="1"/>
+      <layer-setting tolerance="12" id="pnboundary_b4bc9501_a247_485d_a512_a88eea9f546e" units="1" type="1" minScale="0" maxScale="0" enabled="1"/>
+      <layer-setting tolerance="12" id="cluster_bndry_c95d70d7_babd_420e_93e4_089755cdca43" units="1" type="1" minScale="0" maxScale="0" enabled="1"/>
+      <layer-setting tolerance="12" id="googlepoles_d4b350e6_883e_4947_9613_98f96ffd98cd" units="1" type="1" minScale="0" maxScale="0" enabled="1"/>
+      <layer-setting tolerance="12" id="preprocessed_dp_d7924f12_5ec7_45b5_a6ef_2ce98198fa8b" units="1" type="1" minScale="0" maxScale="0" enabled="1"/>
+      <layer-setting tolerance="12" id="Ugnode_sn_f43d6e25_0d93_484a_bc88_5e6c5a376791" units="1" type="1" minScale="0" maxScale="0" enabled="1"/>
+      <layer-setting tolerance="12" id="poles_at_5mtrs_8ecce595_b97a_43be_8d8b_77e8457ec65a" units="1" type="1" minScale="0" maxScale="0" enabled="1"/>
+      <layer-setting tolerance="12" id="structures_b80a284a_c952_481e_a90d_1d88157ec7fd" units="1" type="1" minScale="0" maxScale="0" enabled="1"/>
+      <layer-setting tolerance="12" id="cabinets_ca6c0e30_bc1a_459b_82f9_bdd756a66721" units="1" type="1" minScale="0" maxScale="0" enabled="1"/>
+      <layer-setting tolerance="12" id="Mdu_931e2ee3_ec2f_4749_b6a7_19a4eae99713" units="1" type="1" minScale="0" maxScale="0" enabled="1"/>
+    </individual-layer-settings>
+  </snapping-settings>
+  <relations/>
+  <polymorphicRelations/>
+  <main-annotation-layer type="annotation" refreshOnNotifyMessage="" autoRefreshTime="0" refreshOnNotifyEnabled="0" autoRefreshEnabled="0">
+    <id>Annotations_07f08d0b_aed9_40ef_858f_3631d5aa189f</id>
+    <datasource></datasource>
+    <keywordList>
+      <value></value>
+    </keywordList>
+    <layername>Annotations</layername>
+    <srs>
+      <spatialrefsys>
+        <wkt></wkt>
+        <proj4></proj4>
+        <srsid>0</srsid>
+        <srid>0</srid>
+        <authid></authid>
+        <description></description>
+        <projectionacronym></projectionacronym>
+        <ellipsoidacronym></ellipsoidacronym>
+        <geographicflag>false</geographicflag>
+      </spatialrefsys>
+    </srs>
+    <resourceMetadata>
+      <identifier></identifier>
+      <parentidentifier></parentidentifier>
+      <language></language>
+      <type></type>
+      <title></title>
+      <abstract></abstract>
+      <links/>
+      <fees></fees>
+      <encoding></encoding>
+      <crs>
+        <spatialrefsys>
+          <wkt></wkt>
+          <proj4></proj4>
+          <srsid>0</srsid>
+          <srid>0</srid>
+          <authid></authid>
+          <description></description>
+          <projectionacronym></projectionacronym>
+          <ellipsoidacronym></ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </crs>
+      <extent/>
+    </resourceMetadata>
+    <items/>
+    <layerOpacity>1</layerOpacity>
+    <blendMode>0</blendMode>
+  </main-annotation-layer>
+  <projectlayers>
+    <maplayer styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0" type="raster" refreshOnNotifyMessage="" minScale="1e+08" maxScale="0" autoRefreshTime="0" refreshOnNotifyEnabled="0" autoRefreshEnabled="0">
+      <extent>
+        <xmin>-20037508.34278924390673637</xmin>
+        <ymin>-20037508.34278924763202667</ymin>
+        <xmax>20037508.34278924390673637</xmax>
+        <ymax>20037508.34278924763202667</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>-180</xmin>
+        <ymin>-85.05112877980660357</ymin>
+        <xmax>179.99999999999997158</xmax>
+        <ymax>85.05112877980660357</ymax>
+      </wgs84extent>
+      <id>Google_Hybrid_35ef61a9_887e_4b03_b3bf_1339e8f90b3f</id>
+      <datasource>type=xyz&amp;zmin=0&amp;zmax=21&amp;url=https%3A//mt1.google.com/vt/lyrs%3Dy%26x%3D%7Bx%7D%26y%3D%7By%7D%26z%3D%7Bz%7D</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Google Hybrid</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>PROJCRS["WGS 84 / Pseudo-Mercator",BASEGEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4326]],CONVERSION["Popular Visualisation Pseudo-Mercator",METHOD["Popular Visualisation Pseudo Mercator",ID["EPSG",1024]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["False easting",0,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["easting (X)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["northing (Y)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Web mapping and visualisation."],AREA["World between 85.06°S and 85.06°N."],BBOX[-85.06,-180,85.06,180]],ID["EPSG",3857]]</wkt>
+          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0 +lon_0=0 +x_0=0 +y_0=0 +k=1 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+          <srsid>3857</srsid>
+          <srid>3857</srid>
+          <authid>EPSG:3857</authid>
+          <description>WGS 84 / Pseudo-Mercator</description>
+          <projectionacronym>merc</projectionacronym>
+          <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider>wms</provider>
+      <noData>
+        <noDataList useSrcNoData="0" bandNo="1"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+        <Private>0</Private>
+      </flags>
+      <temporal fetchMode="0" enabled="0" mode="0">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <customproperties>
+        <Option type="Map">
+          <Option name="identify/format" type="QString" value="Value"/>
+        </Option>
+      </customproperties>
+      <pipe>
+        <provider>
+          <resampling enabled="false" maxOversampling="2" zoomedInResamplingMethod="nearestNeighbour" zoomedOutResamplingMethod="nearestNeighbour"/>
+        </provider>
+        <rasterrenderer alphaBand="-1" opacity="1" type="singlebandcolordata" nodataColor="" band="1">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>None</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+        </rasterrenderer>
+        <brightnesscontrast contrast="0" gamma="1" brightness="0"/>
+        <huesaturation colorizeOn="0" colorizeStrength="100" saturation="0" colorizeGreen="128" colorizeBlue="128" grayscaleMode="0" colorizeRed="255"/>
+        <rasterresampler maxOversampling="2"/>
+        <resamplingStage>resamplingFilter</resamplingStage>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer wkbType="MultiPolygon" simplifyMaxScale="1" minScale="100000000" maxScale="0" autoRefreshEnabled="0" geometry="Polygon" simplifyLocal="1" styleCategories="AllStyleCategories" refreshOnNotifyMessage="" type="vector" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" simplifyDrawingTol="1" simplifyAlgorithm="0" simplifyDrawingHints="1" labelsEnabled="0" readOnly="0" refreshOnNotifyEnabled="0">
+      <extent>
+        <xmin>497167.90000000002328306</xmin>
+        <ymin>370317.54999999998835847</ymin>
+        <xmax>497477.76000000000931323</xmax>
+        <ymax>370428</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>-0.54613160018533402</xmin>
+        <ymin>53.22099851007095594</ymin>
+        <xmax>-0.54145858374754219</xmax>
+        <ymax>53.22204760181187311</ymax>
+      </wgs84extent>
+      <id>Mdu_931e2ee3_ec2f_4749_b6a7_19a4eae99713</id>
+      <datasource>./Mdu.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Mdu</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>PROJCRS["OSGB36 / British National Grid",BASEGEOGCRS["OSGB36",DATUM["Ordnance Survey of Great Britain 1936",ELLIPSOID["Airy 1830",6377563.396,299.3249646,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4277]],CONVERSION["British National Grid",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",49,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",-2,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9996012717,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",400000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",-100000,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Engineering survey, topographic mapping."],AREA["United Kingdom (UK) - offshore to boundary of UKCS within 49°45'N to 61°N and 9°W to 2°E; onshore Great Britain (England, Wales and Scotland). Isle of Man onshore."],BBOX[49.75,-9,61.01,2.01]],ID["EPSG",27700]]</wkt>
+          <proj4>+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.9996012717 +x_0=400000 +y_0=-100000 +ellps=airy +units=m +no_defs</proj4>
+          <srsid>2437</srsid>
+          <srid>27700</srid>
+          <authid>EPSG:27700</authid>
+          <description>OSGB36 / British National Grid</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>EPSG:7001</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="windows-1252">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+        <Private>0</Private>
+      </flags>
+      <temporal startExpression="" fixedDuration="0" accumulate="0" enabled="0" startField="" endField="" endExpression="" durationField="" durationUnit="min" mode="0">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <renderer-v2 symbollevels="0" type="singleSymbol" forceraster="0" enableorderby="0">
+        <symbols>
+          <symbol force_rhr="0" name="0" type="fill" alpha="1" clip_to_extent="1">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option name="name" type="QString" value=""/>
+                <Option name="properties"/>
+                <Option name="type" type="QString" value="collection"/>
+              </Option>
+            </data_defined_properties>
+            <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+              <Option type="Map">
+                <Option name="border_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="color" type="QString" value="255,158,23,255"/>
+                <Option name="joinstyle" type="QString" value="bevel"/>
+                <Option name="offset" type="QString" value="0,0"/>
+                <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="offset_unit" type="QString" value="MM"/>
+                <Option name="outline_color" type="QString" value="35,35,35,255"/>
+                <Option name="outline_style" type="QString" value="solid"/>
+                <Option name="outline_width" type="QString" value="0.26"/>
+                <Option name="outline_width_unit" type="QString" value="MM"/>
+                <Option name="style" type="QString" value="solid"/>
+              </Option>
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="255,158,23,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <Option/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks type="StringList">
+          <Option type="QString" value=""/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <legend type="default-vector" showLabelLegend="0"/>
+      <referencedLayers/>
+      <fieldConfiguration>
+        <field configurationFlags="None" name="FID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" name="" field="FID"/>
+      </aliases>
+      <defaults>
+        <default expression="" field="FID" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="FID" constraints="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" field="FID" exp=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <reuseLastValue/>
+      <dataDefinedFieldProperties/>
+      <widgets/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer wkbType="Point" simplifyMaxScale="1" minScale="100000000" maxScale="0" autoRefreshEnabled="0" geometry="Point" simplifyLocal="1" styleCategories="AllStyleCategories" refreshOnNotifyMessage="" type="vector" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" simplifyDrawingTol="1" simplifyAlgorithm="0" simplifyDrawingHints="1" labelsEnabled="0" readOnly="0" refreshOnNotifyEnabled="0">
+      <id>Ugnode_sn_f43d6e25_0d93_484a_bc88_5e6c5a376791</id>
+      <datasource>./Ugnode_sn.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Ugnode_sn</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>PROJCRS["OSGB36 / British National Grid",BASEGEOGCRS["OSGB36",DATUM["Ordnance Survey of Great Britain 1936",ELLIPSOID["Airy 1830",6377563.396,299.3249646,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4277]],CONVERSION["British National Grid",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",49,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",-2,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9996012717,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",400000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",-100000,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Engineering survey, topographic mapping."],AREA["United Kingdom (UK) - offshore to boundary of UKCS within 49°45'N to 61°N and 9°W to 2°E; onshore Great Britain (England, Wales and Scotland). Isle of Man onshore."],BBOX[49.75,-9,61.01,2.01]],ID["EPSG",27700]]</wkt>
+          <proj4>+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.9996012717 +x_0=400000 +y_0=-100000 +ellps=airy +units=m +no_defs</proj4>
+          <srsid>2437</srsid>
+          <srid>27700</srid>
+          <authid>EPSG:27700</authid>
+          <description>OSGB36 / British National Grid</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>EPSG:7001</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="windows-1252">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+        <Private>0</Private>
+      </flags>
+      <temporal startExpression="" fixedDuration="0" accumulate="0" enabled="0" startField="" endField="" endExpression="" durationField="" durationUnit="min" mode="0">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <renderer-v2 symbollevels="0" type="singleSymbol" forceraster="0" enableorderby="0">
+        <symbols>
+          <symbol force_rhr="0" name="0" type="marker" alpha="1" clip_to_extent="1">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option name="name" type="QString" value=""/>
+                <Option name="properties"/>
+                <Option name="type" type="QString" value="collection"/>
+              </Option>
+            </data_defined_properties>
+            <layer class="SimpleMarker" enabled="1" locked="0" pass="0">
+              <Option type="Map">
+                <Option name="angle" type="QString" value="0"/>
+                <Option name="cap_style" type="QString" value="square"/>
+                <Option name="color" type="QString" value="164,113,88,255"/>
+                <Option name="horizontal_anchor_point" type="QString" value="1"/>
+                <Option name="joinstyle" type="QString" value="bevel"/>
+                <Option name="name" type="QString" value="circle"/>
+                <Option name="offset" type="QString" value="0,0"/>
+                <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="offset_unit" type="QString" value="MM"/>
+                <Option name="outline_color" type="QString" value="35,35,35,255"/>
+                <Option name="outline_style" type="QString" value="solid"/>
+                <Option name="outline_width" type="QString" value="0"/>
+                <Option name="outline_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="outline_width_unit" type="QString" value="MM"/>
+                <Option name="scale_method" type="QString" value="diameter"/>
+                <Option name="size" type="QString" value="2"/>
+                <Option name="size_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="size_unit" type="QString" value="MM"/>
+                <Option name="vertical_anchor_point" type="QString" value="1"/>
+              </Option>
+              <prop k="angle" v="0"/>
+              <prop k="cap_style" v="square"/>
+              <prop k="color" v="164,113,88,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <Option/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks type="StringList">
+          <Option type="QString" value=""/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <legend type="default-vector" showLabelLegend="0"/>
+      <referencedLayers/>
+      <fieldConfiguration>
+        <field configurationFlags="None" name="struct_id">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="n">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="distance">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="feature_x">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="feature_y">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="nearest_x">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="nearest_y">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" name="" field="struct_id"/>
+        <alias index="1" name="" field="n"/>
+        <alias index="2" name="" field="distance"/>
+        <alias index="3" name="" field="feature_x"/>
+        <alias index="4" name="" field="feature_y"/>
+        <alias index="5" name="" field="nearest_x"/>
+        <alias index="6" name="" field="nearest_y"/>
+      </aliases>
+      <defaults>
+        <default expression="" field="struct_id" applyOnUpdate="0"/>
+        <default expression="" field="n" applyOnUpdate="0"/>
+        <default expression="" field="distance" applyOnUpdate="0"/>
+        <default expression="" field="feature_x" applyOnUpdate="0"/>
+        <default expression="" field="feature_y" applyOnUpdate="0"/>
+        <default expression="" field="nearest_x" applyOnUpdate="0"/>
+        <default expression="" field="nearest_y" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="struct_id" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="n" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="distance" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="feature_x" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="feature_y" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="nearest_x" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="nearest_y" constraints="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" field="struct_id" exp=""/>
+        <constraint desc="" field="n" exp=""/>
+        <constraint desc="" field="distance" exp=""/>
+        <constraint desc="" field="feature_x" exp=""/>
+        <constraint desc="" field="feature_y" exp=""/>
+        <constraint desc="" field="nearest_x" exp=""/>
+        <constraint desc="" field="nearest_y" exp=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <reuseLastValue/>
+      <dataDefinedFieldProperties/>
+      <widgets/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer wkbType="Point" simplifyMaxScale="1" minScale="100000000" maxScale="0" autoRefreshEnabled="0" geometry="Point" simplifyLocal="1" styleCategories="AllStyleCategories" refreshOnNotifyMessage="" type="vector" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" simplifyDrawingTol="1" simplifyAlgorithm="0" simplifyDrawingHints="1" labelsEnabled="0" readOnly="0" refreshOnNotifyEnabled="0">
+      <id>cabinets_ca6c0e30_bc1a_459b_82f9_bdd756a66721</id>
+      <datasource>./cabinets.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>cabinets</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>PROJCRS["OSGB36 / British National Grid",BASEGEOGCRS["OSGB36",DATUM["Ordnance Survey of Great Britain 1936",ELLIPSOID["Airy 1830",6377563.396,299.3249646,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4277]],CONVERSION["British National Grid",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",49,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",-2,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9996012717,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",400000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",-100000,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Engineering survey, topographic mapping."],AREA["United Kingdom (UK) - offshore to boundary of UKCS within 49°45'N to 61°N and 9°W to 2°E; onshore Great Britain (England, Wales and Scotland). Isle of Man onshore."],BBOX[49.75,-9,61.01,2.01]],ID["EPSG",27700]]</wkt>
+          <proj4>+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.9996012717 +x_0=400000 +y_0=-100000 +ellps=airy +units=m +no_defs</proj4>
+          <srsid>2437</srsid>
+          <srid>27700</srid>
+          <authid>EPSG:27700</authid>
+          <description>OSGB36 / British National Grid</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>EPSG:7001</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="windows-1252">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+        <Private>0</Private>
+      </flags>
+      <temporal startExpression="" fixedDuration="0" accumulate="0" enabled="0" startField="" endField="" endExpression="" durationField="" durationUnit="min" mode="0">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <renderer-v2 symbollevels="0" type="singleSymbol" forceraster="0" enableorderby="0">
+        <symbols>
+          <symbol force_rhr="0" name="0" type="marker" alpha="1" clip_to_extent="1">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option name="name" type="QString" value=""/>
+                <Option name="properties"/>
+                <Option name="type" type="QString" value="collection"/>
+              </Option>
+            </data_defined_properties>
+            <layer class="SimpleMarker" enabled="1" locked="0" pass="0">
+              <Option type="Map">
+                <Option name="angle" type="QString" value="0"/>
+                <Option name="cap_style" type="QString" value="square"/>
+                <Option name="color" type="QString" value="152,125,183,255"/>
+                <Option name="horizontal_anchor_point" type="QString" value="1"/>
+                <Option name="joinstyle" type="QString" value="bevel"/>
+                <Option name="name" type="QString" value="circle"/>
+                <Option name="offset" type="QString" value="0,0"/>
+                <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="offset_unit" type="QString" value="MM"/>
+                <Option name="outline_color" type="QString" value="35,35,35,255"/>
+                <Option name="outline_style" type="QString" value="solid"/>
+                <Option name="outline_width" type="QString" value="0"/>
+                <Option name="outline_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="outline_width_unit" type="QString" value="MM"/>
+                <Option name="scale_method" type="QString" value="diameter"/>
+                <Option name="size" type="QString" value="2"/>
+                <Option name="size_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="size_unit" type="QString" value="MM"/>
+                <Option name="vertical_anchor_point" type="QString" value="1"/>
+              </Option>
+              <prop k="angle" v="0"/>
+              <prop k="cap_style" v="square"/>
+              <prop k="color" v="152,125,183,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <Option/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks type="StringList">
+          <Option type="QString" value=""/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <legend type="default-vector" showLabelLegend="0"/>
+      <referencedLayers/>
+      <fieldConfiguration>
+        <field configurationFlags="None" name="struct_id">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="n">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="distance">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="feature_x">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="feature_y">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="nearest_x">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="nearest_y">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" name="" field="struct_id"/>
+        <alias index="1" name="" field="n"/>
+        <alias index="2" name="" field="distance"/>
+        <alias index="3" name="" field="feature_x"/>
+        <alias index="4" name="" field="feature_y"/>
+        <alias index="5" name="" field="nearest_x"/>
+        <alias index="6" name="" field="nearest_y"/>
+      </aliases>
+      <defaults>
+        <default expression="" field="struct_id" applyOnUpdate="0"/>
+        <default expression="" field="n" applyOnUpdate="0"/>
+        <default expression="" field="distance" applyOnUpdate="0"/>
+        <default expression="" field="feature_x" applyOnUpdate="0"/>
+        <default expression="" field="feature_y" applyOnUpdate="0"/>
+        <default expression="" field="nearest_x" applyOnUpdate="0"/>
+        <default expression="" field="nearest_y" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="struct_id" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="n" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="distance" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="feature_x" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="feature_y" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="nearest_x" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="nearest_y" constraints="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" field="struct_id" exp=""/>
+        <constraint desc="" field="n" exp=""/>
+        <constraint desc="" field="distance" exp=""/>
+        <constraint desc="" field="feature_x" exp=""/>
+        <constraint desc="" field="feature_y" exp=""/>
+        <constraint desc="" field="nearest_x" exp=""/>
+        <constraint desc="" field="nearest_y" exp=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <reuseLastValue/>
+      <dataDefinedFieldProperties/>
+      <widgets/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer wkbType="MultiPolygon" simplifyMaxScale="1" minScale="100000000" maxScale="0" autoRefreshEnabled="0" geometry="Polygon" simplifyLocal="1" styleCategories="AllStyleCategories" refreshOnNotifyMessage="" type="vector" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" simplifyDrawingTol="1" simplifyAlgorithm="0" simplifyDrawingHints="1" labelsEnabled="0" readOnly="0" refreshOnNotifyEnabled="0">
+      <extent>
+        <xmin>496965.34866881225025281</xmin>
+        <ymin>370273.73999999999068677</ymin>
+        <xmax>497525.90000000002328306</xmax>
+        <ymax>370466.95000000001164153</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>-0.54917758039087317</xmin>
+        <ymin>53.22059603528923333</ymin>
+        <xmax>-0.54072592267862973</xmax>
+        <ymax>53.22243451381730495</ymax>
+      </wgs84extent>
+      <id>cluster_bndry_c95d70d7_babd_420e_93e4_089755cdca43</id>
+      <datasource>./cluster_bndry.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>cluster_bndry</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>PROJCRS["OSGB36 / British National Grid",BASEGEOGCRS["OSGB36",DATUM["Ordnance Survey of Great Britain 1936",ELLIPSOID["Airy 1830",6377563.396,299.3249646,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4277]],CONVERSION["British National Grid",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",49,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",-2,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9996012717,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",400000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",-100000,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Engineering survey, topographic mapping."],AREA["United Kingdom (UK) - offshore to boundary of UKCS within 49°45'N to 61°N and 9°W to 2°E; onshore Great Britain (England, Wales and Scotland). Isle of Man onshore."],BBOX[49.75,-9,61.01,2.01]],ID["EPSG",27700]]</wkt>
+          <proj4>+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.9996012717 +x_0=400000 +y_0=-100000 +ellps=airy +units=m +no_defs</proj4>
+          <srsid>2437</srsid>
+          <srid>27700</srid>
+          <authid>EPSG:27700</authid>
+          <description>OSGB36 / British National Grid</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>EPSG:7001</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="windows-1252">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+        <Private>0</Private>
+      </flags>
+      <temporal startExpression="" fixedDuration="0" accumulate="0" enabled="0" startField="" endField="" endExpression="" durationField="" durationUnit="min" mode="0">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <renderer-v2 symbollevels="0" type="singleSymbol" forceraster="0" enableorderby="0">
+        <symbols>
+          <symbol force_rhr="0" name="0" type="fill" alpha="1" clip_to_extent="1">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option name="name" type="QString" value=""/>
+                <Option name="properties"/>
+                <Option name="type" type="QString" value="collection"/>
+              </Option>
+            </data_defined_properties>
+            <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+              <Option type="Map">
+                <Option name="border_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="color" type="QString" value="231,113,72,255"/>
+                <Option name="joinstyle" type="QString" value="bevel"/>
+                <Option name="offset" type="QString" value="0,0"/>
+                <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="offset_unit" type="QString" value="MM"/>
+                <Option name="outline_color" type="QString" value="35,35,35,255"/>
+                <Option name="outline_style" type="QString" value="solid"/>
+                <Option name="outline_width" type="QString" value="0.26"/>
+                <Option name="outline_width_unit" type="QString" value="MM"/>
+                <Option name="style" type="QString" value="solid"/>
+              </Option>
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="231,113,72,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <Option/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks type="StringList">
+          <Option type="QString" value=""/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <legend type="default-vector" showLabelLegend="0"/>
+      <referencedLayers/>
+      <fieldConfiguration>
+        <field configurationFlags="None" name="struct_id">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="n">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="distance">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="feature_x">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="feature_y">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="nearest_x">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="nearest_y">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" name="" field="struct_id"/>
+        <alias index="1" name="" field="n"/>
+        <alias index="2" name="" field="distance"/>
+        <alias index="3" name="" field="feature_x"/>
+        <alias index="4" name="" field="feature_y"/>
+        <alias index="5" name="" field="nearest_x"/>
+        <alias index="6" name="" field="nearest_y"/>
+      </aliases>
+      <defaults>
+        <default expression="" field="struct_id" applyOnUpdate="0"/>
+        <default expression="" field="n" applyOnUpdate="0"/>
+        <default expression="" field="distance" applyOnUpdate="0"/>
+        <default expression="" field="feature_x" applyOnUpdate="0"/>
+        <default expression="" field="feature_y" applyOnUpdate="0"/>
+        <default expression="" field="nearest_x" applyOnUpdate="0"/>
+        <default expression="" field="nearest_y" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="struct_id" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="n" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="distance" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="feature_x" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="feature_y" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="nearest_x" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="nearest_y" constraints="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" field="struct_id" exp=""/>
+        <constraint desc="" field="n" exp=""/>
+        <constraint desc="" field="distance" exp=""/>
+        <constraint desc="" field="feature_x" exp=""/>
+        <constraint desc="" field="feature_y" exp=""/>
+        <constraint desc="" field="nearest_x" exp=""/>
+        <constraint desc="" field="nearest_y" exp=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <reuseLastValue/>
+      <dataDefinedFieldProperties/>
+      <widgets/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer wkbType="Point" simplifyMaxScale="1" minScale="100000000" maxScale="0" autoRefreshEnabled="0" geometry="Point" simplifyLocal="1" styleCategories="AllStyleCategories" refreshOnNotifyMessage="" type="vector" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" simplifyDrawingTol="1" simplifyAlgorithm="0" simplifyDrawingHints="1" labelsEnabled="0" readOnly="0" refreshOnNotifyEnabled="0">
+      <extent>
+        <xmin>497014.63190662337001413</xmin>
+        <ymin>370318.04864614480175078</ymin>
+        <xmax>497491.51932138210395351</xmax>
+        <ymax>370433.80245601909700781</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>-0.54842625547105561</xmin>
+        <ymin>53.22100047249855947</ymin>
+        <xmax>-0.54125080062357322</xmax>
+        <ymax>53.22212768242854253</ymax>
+      </wgs84extent>
+      <id>googlepoles_d4b350e6_883e_4947_9613_98f96ffd98cd</id>
+      <datasource>./googlepoles.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>googlepoles</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>PROJCRS["OSGB36 / British National Grid",BASEGEOGCRS["OSGB36",DATUM["Ordnance Survey of Great Britain 1936",ELLIPSOID["Airy 1830",6377563.396,299.3249646,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4277]],CONVERSION["British National Grid",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",49,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",-2,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9996012717,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",400000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",-100000,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Engineering survey, topographic mapping."],AREA["United Kingdom (UK) - offshore to boundary of UKCS within 49°45'N to 61°N and 9°W to 2°E; onshore Great Britain (England, Wales and Scotland). Isle of Man onshore."],BBOX[49.75,-9,61.01,2.01]],ID["EPSG",27700]]</wkt>
+          <proj4>+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.9996012717 +x_0=400000 +y_0=-100000 +ellps=airy +units=m +no_defs</proj4>
+          <srsid>2437</srsid>
+          <srid>27700</srid>
+          <authid>EPSG:27700</authid>
+          <description>OSGB36 / British National Grid</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>EPSG:7001</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="windows-1252">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+        <Private>0</Private>
+      </flags>
+      <temporal startExpression="" fixedDuration="0" accumulate="0" enabled="0" startField="" endField="" endExpression="" durationField="" durationUnit="min" mode="0">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <renderer-v2 symbollevels="0" type="singleSymbol" forceraster="0" enableorderby="0">
+        <symbols>
+          <symbol force_rhr="0" name="0" type="marker" alpha="1" clip_to_extent="1">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option name="name" type="QString" value=""/>
+                <Option name="properties"/>
+                <Option name="type" type="QString" value="collection"/>
+              </Option>
+            </data_defined_properties>
+            <layer class="SimpleMarker" enabled="1" locked="0" pass="0">
+              <Option type="Map">
+                <Option name="angle" type="QString" value="0"/>
+                <Option name="cap_style" type="QString" value="square"/>
+                <Option name="color" type="QString" value="183,72,75,255"/>
+                <Option name="horizontal_anchor_point" type="QString" value="1"/>
+                <Option name="joinstyle" type="QString" value="bevel"/>
+                <Option name="name" type="QString" value="circle"/>
+                <Option name="offset" type="QString" value="0,0"/>
+                <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="offset_unit" type="QString" value="MM"/>
+                <Option name="outline_color" type="QString" value="35,35,35,255"/>
+                <Option name="outline_style" type="QString" value="solid"/>
+                <Option name="outline_width" type="QString" value="0"/>
+                <Option name="outline_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="outline_width_unit" type="QString" value="MM"/>
+                <Option name="scale_method" type="QString" value="diameter"/>
+                <Option name="size" type="QString" value="2"/>
+                <Option name="size_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="size_unit" type="QString" value="MM"/>
+                <Option name="vertical_anchor_point" type="QString" value="1"/>
+              </Option>
+              <prop k="angle" v="0"/>
+              <prop k="cap_style" v="square"/>
+              <prop k="color" v="183,72,75,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <Option/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks type="StringList">
+          <Option type="QString" value=""/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <legend type="default-vector" showLabelLegend="0"/>
+      <referencedLayers/>
+      <fieldConfiguration>
+        <field configurationFlags="None" name="id">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="pole_type">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="feed_type">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="plant_item">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="exist_wire">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="p2p_span">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="cfh_drops">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="free_space">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="ladder_acc">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="ring_head">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="capping">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="hazards">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="gps_x">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="gps_y">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="vertex_pos">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="vertex_ind">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="vertex_par">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="vertex_p_1">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="distance">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="angle">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" name="" field="id"/>
+        <alias index="1" name="" field="pole_type"/>
+        <alias index="2" name="" field="feed_type"/>
+        <alias index="3" name="" field="plant_item"/>
+        <alias index="4" name="" field="exist_wire"/>
+        <alias index="5" name="" field="p2p_span"/>
+        <alias index="6" name="" field="cfh_drops"/>
+        <alias index="7" name="" field="free_space"/>
+        <alias index="8" name="" field="ladder_acc"/>
+        <alias index="9" name="" field="ring_head"/>
+        <alias index="10" name="" field="capping"/>
+        <alias index="11" name="" field="hazards"/>
+        <alias index="12" name="" field="gps_x"/>
+        <alias index="13" name="" field="gps_y"/>
+        <alias index="14" name="" field="vertex_pos"/>
+        <alias index="15" name="" field="vertex_ind"/>
+        <alias index="16" name="" field="vertex_par"/>
+        <alias index="17" name="" field="vertex_p_1"/>
+        <alias index="18" name="" field="distance"/>
+        <alias index="19" name="" field="angle"/>
+      </aliases>
+      <defaults>
+        <default expression="" field="id" applyOnUpdate="0"/>
+        <default expression="" field="pole_type" applyOnUpdate="0"/>
+        <default expression="" field="feed_type" applyOnUpdate="0"/>
+        <default expression="" field="plant_item" applyOnUpdate="0"/>
+        <default expression="" field="exist_wire" applyOnUpdate="0"/>
+        <default expression="" field="p2p_span" applyOnUpdate="0"/>
+        <default expression="" field="cfh_drops" applyOnUpdate="0"/>
+        <default expression="" field="free_space" applyOnUpdate="0"/>
+        <default expression="" field="ladder_acc" applyOnUpdate="0"/>
+        <default expression="" field="ring_head" applyOnUpdate="0"/>
+        <default expression="" field="capping" applyOnUpdate="0"/>
+        <default expression="" field="hazards" applyOnUpdate="0"/>
+        <default expression="" field="gps_x" applyOnUpdate="0"/>
+        <default expression="" field="gps_y" applyOnUpdate="0"/>
+        <default expression="" field="vertex_pos" applyOnUpdate="0"/>
+        <default expression="" field="vertex_ind" applyOnUpdate="0"/>
+        <default expression="" field="vertex_par" applyOnUpdate="0"/>
+        <default expression="" field="vertex_p_1" applyOnUpdate="0"/>
+        <default expression="" field="distance" applyOnUpdate="0"/>
+        <default expression="" field="angle" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="id" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="pole_type" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="feed_type" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="plant_item" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="exist_wire" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="p2p_span" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="cfh_drops" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="free_space" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="ladder_acc" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="ring_head" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="capping" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="hazards" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="gps_x" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="gps_y" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="vertex_pos" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="vertex_ind" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="vertex_par" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="vertex_p_1" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="distance" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="angle" constraints="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" field="id" exp=""/>
+        <constraint desc="" field="pole_type" exp=""/>
+        <constraint desc="" field="feed_type" exp=""/>
+        <constraint desc="" field="plant_item" exp=""/>
+        <constraint desc="" field="exist_wire" exp=""/>
+        <constraint desc="" field="p2p_span" exp=""/>
+        <constraint desc="" field="cfh_drops" exp=""/>
+        <constraint desc="" field="free_space" exp=""/>
+        <constraint desc="" field="ladder_acc" exp=""/>
+        <constraint desc="" field="ring_head" exp=""/>
+        <constraint desc="" field="capping" exp=""/>
+        <constraint desc="" field="hazards" exp=""/>
+        <constraint desc="" field="gps_x" exp=""/>
+        <constraint desc="" field="gps_y" exp=""/>
+        <constraint desc="" field="vertex_pos" exp=""/>
+        <constraint desc="" field="vertex_ind" exp=""/>
+        <constraint desc="" field="vertex_par" exp=""/>
+        <constraint desc="" field="vertex_p_1" exp=""/>
+        <constraint desc="" field="distance" exp=""/>
+        <constraint desc="" field="angle" exp=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <reuseLastValue/>
+      <dataDefinedFieldProperties/>
+      <widgets/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer wkbType="MultiPolygon" simplifyMaxScale="1" minScale="100000000" maxScale="0" autoRefreshEnabled="0" geometry="Polygon" simplifyLocal="1" styleCategories="AllStyleCategories" refreshOnNotifyMessage="" type="vector" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" simplifyDrawingTol="1" simplifyAlgorithm="0" simplifyDrawingHints="1" labelsEnabled="0" readOnly="0" refreshOnNotifyEnabled="0">
+      <extent>
+        <xmin>496962.45240831124829128</xmin>
+        <ymin>370268.06042278656968847</ymin>
+        <xmax>497537.77754488441860303</xmax>
+        <ymax>370462.84032860130537301</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>-0.54922266584883705</xmin>
+        <ymin>53.22054282563569672</ymin>
+        <xmax>-0.54054933450372844</xmax>
+        <ymax>53.22239811257009023</ymax>
+      </wgs84extent>
+      <id>pnboundary_b4bc9501_a247_485d_a512_a88eea9f546e</id>
+      <datasource>./pnboundary.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>pnboundary</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>PROJCRS["OSGB36 / British National Grid",BASEGEOGCRS["OSGB36",DATUM["Ordnance Survey of Great Britain 1936",ELLIPSOID["Airy 1830",6377563.396,299.3249646,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4277]],CONVERSION["British National Grid",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",49,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",-2,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9996012717,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",400000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",-100000,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Engineering survey, topographic mapping."],AREA["United Kingdom (UK) - offshore to boundary of UKCS within 49°45'N to 61°N and 9°W to 2°E; onshore Great Britain (England, Wales and Scotland). Isle of Man onshore."],BBOX[49.75,-9,61.01,2.01]],ID["EPSG",27700]]</wkt>
+          <proj4>+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.9996012717 +x_0=400000 +y_0=-100000 +ellps=airy +units=m +no_defs</proj4>
+          <srsid>2437</srsid>
+          <srid>27700</srid>
+          <authid>EPSG:27700</authid>
+          <description>OSGB36 / British National Grid</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>EPSG:7001</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="windows-1252">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+        <Private>0</Private>
+      </flags>
+      <temporal startExpression="" fixedDuration="0" accumulate="0" enabled="0" startField="" endField="" endExpression="" durationField="" durationUnit="min" mode="0">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <renderer-v2 symbollevels="0" type="singleSymbol" forceraster="0" enableorderby="0">
+        <symbols>
+          <symbol force_rhr="0" name="0" type="fill" alpha="1" clip_to_extent="1">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option name="name" type="QString" value=""/>
+                <Option name="properties"/>
+                <Option name="type" type="QString" value="collection"/>
+              </Option>
+            </data_defined_properties>
+            <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+              <Option type="Map">
+                <Option name="border_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="color" type="QString" value="232,113,141,255"/>
+                <Option name="joinstyle" type="QString" value="bevel"/>
+                <Option name="offset" type="QString" value="0,0"/>
+                <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="offset_unit" type="QString" value="MM"/>
+                <Option name="outline_color" type="QString" value="35,35,35,255"/>
+                <Option name="outline_style" type="QString" value="solid"/>
+                <Option name="outline_width" type="QString" value="0.26"/>
+                <Option name="outline_width_unit" type="QString" value="MM"/>
+                <Option name="style" type="QString" value="solid"/>
+              </Option>
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="232,113,141,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <Option/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks type="StringList">
+          <Option type="QString" value=""/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <legend type="default-vector" showLabelLegend="0"/>
+      <referencedLayers/>
+      <fieldConfiguration>
+        <field configurationFlags="None" name="gid">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="agg_id">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="locked">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="sns">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="splitfiber">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="homecount">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="forced_eq">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="future_cbl">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="sdu_smdu">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="asns">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="pn_nr">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="type">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="identifier">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="area_id">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="polecount">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="fedtype">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" name="" field="gid"/>
+        <alias index="1" name="" field="agg_id"/>
+        <alias index="2" name="" field="locked"/>
+        <alias index="3" name="" field="sns"/>
+        <alias index="4" name="" field="splitfiber"/>
+        <alias index="5" name="" field="homecount"/>
+        <alias index="6" name="" field="forced_eq"/>
+        <alias index="7" name="" field="future_cbl"/>
+        <alias index="8" name="" field="sdu_smdu"/>
+        <alias index="9" name="" field="asns"/>
+        <alias index="10" name="" field="pn_nr"/>
+        <alias index="11" name="" field="type"/>
+        <alias index="12" name="" field="identifier"/>
+        <alias index="13" name="" field="area_id"/>
+        <alias index="14" name="" field="polecount"/>
+        <alias index="15" name="" field="fedtype"/>
+      </aliases>
+      <defaults>
+        <default expression="" field="gid" applyOnUpdate="0"/>
+        <default expression="" field="agg_id" applyOnUpdate="0"/>
+        <default expression="" field="locked" applyOnUpdate="0"/>
+        <default expression="" field="sns" applyOnUpdate="0"/>
+        <default expression="" field="splitfiber" applyOnUpdate="0"/>
+        <default expression="" field="homecount" applyOnUpdate="0"/>
+        <default expression="" field="forced_eq" applyOnUpdate="0"/>
+        <default expression="" field="future_cbl" applyOnUpdate="0"/>
+        <default expression="" field="sdu_smdu" applyOnUpdate="0"/>
+        <default expression="" field="asns" applyOnUpdate="0"/>
+        <default expression="" field="pn_nr" applyOnUpdate="0"/>
+        <default expression="" field="type" applyOnUpdate="0"/>
+        <default expression="" field="identifier" applyOnUpdate="0"/>
+        <default expression="" field="area_id" applyOnUpdate="0"/>
+        <default expression="" field="polecount" applyOnUpdate="0"/>
+        <default expression="" field="fedtype" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="gid" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="agg_id" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="locked" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="sns" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="splitfiber" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="homecount" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="forced_eq" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="future_cbl" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="sdu_smdu" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="asns" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="pn_nr" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="type" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="identifier" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="area_id" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="polecount" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="fedtype" constraints="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" field="gid" exp=""/>
+        <constraint desc="" field="agg_id" exp=""/>
+        <constraint desc="" field="locked" exp=""/>
+        <constraint desc="" field="sns" exp=""/>
+        <constraint desc="" field="splitfiber" exp=""/>
+        <constraint desc="" field="homecount" exp=""/>
+        <constraint desc="" field="forced_eq" exp=""/>
+        <constraint desc="" field="future_cbl" exp=""/>
+        <constraint desc="" field="sdu_smdu" exp=""/>
+        <constraint desc="" field="asns" exp=""/>
+        <constraint desc="" field="pn_nr" exp=""/>
+        <constraint desc="" field="type" exp=""/>
+        <constraint desc="" field="identifier" exp=""/>
+        <constraint desc="" field="area_id" exp=""/>
+        <constraint desc="" field="polecount" exp=""/>
+        <constraint desc="" field="fedtype" exp=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <reuseLastValue/>
+      <dataDefinedFieldProperties/>
+      <widgets/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer wkbType="Point" simplifyMaxScale="1" minScale="100000000" maxScale="0" autoRefreshEnabled="0" geometry="Point" simplifyLocal="1" styleCategories="AllStyleCategories" refreshOnNotifyMessage="" type="vector" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" simplifyDrawingTol="1" simplifyAlgorithm="0" simplifyDrawingHints="1" labelsEnabled="0" readOnly="0" refreshOnNotifyEnabled="0">
+      <id>poles_at_5mtrs_8ecce595_b97a_43be_8d8b_77e8457ec65a</id>
+      <datasource>./poles_at_5mtrs.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>poles_at_5mtrs</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>PROJCRS["OSGB36 / British National Grid",BASEGEOGCRS["OSGB36",DATUM["Ordnance Survey of Great Britain 1936",ELLIPSOID["Airy 1830",6377563.396,299.3249646,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4277]],CONVERSION["British National Grid",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",49,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",-2,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9996012717,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",400000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",-100000,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Engineering survey, topographic mapping."],AREA["United Kingdom (UK) - offshore to boundary of UKCS within 49°45'N to 61°N and 9°W to 2°E; onshore Great Britain (England, Wales and Scotland). Isle of Man onshore."],BBOX[49.75,-9,61.01,2.01]],ID["EPSG",27700]]</wkt>
+          <proj4>+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.9996012717 +x_0=400000 +y_0=-100000 +ellps=airy +units=m +no_defs</proj4>
+          <srsid>2437</srsid>
+          <srid>27700</srid>
+          <authid>EPSG:27700</authid>
+          <description>OSGB36 / British National Grid</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>EPSG:7001</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="windows-1252">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+        <Private>0</Private>
+      </flags>
+      <temporal startExpression="" fixedDuration="0" accumulate="0" enabled="0" startField="" endField="" endExpression="" durationField="" durationUnit="min" mode="0">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <renderer-v2 symbollevels="0" type="singleSymbol" forceraster="0" enableorderby="0">
+        <symbols>
+          <symbol force_rhr="0" name="0" type="marker" alpha="1" clip_to_extent="1">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option name="name" type="QString" value=""/>
+                <Option name="properties"/>
+                <Option name="type" type="QString" value="collection"/>
+              </Option>
+            </data_defined_properties>
+            <layer class="SimpleMarker" enabled="1" locked="0" pass="0">
+              <Option type="Map">
+                <Option name="angle" type="QString" value="0"/>
+                <Option name="cap_style" type="QString" value="square"/>
+                <Option name="color" type="QString" value="141,90,153,255"/>
+                <Option name="horizontal_anchor_point" type="QString" value="1"/>
+                <Option name="joinstyle" type="QString" value="bevel"/>
+                <Option name="name" type="QString" value="circle"/>
+                <Option name="offset" type="QString" value="0,0"/>
+                <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="offset_unit" type="QString" value="MM"/>
+                <Option name="outline_color" type="QString" value="35,35,35,255"/>
+                <Option name="outline_style" type="QString" value="solid"/>
+                <Option name="outline_width" type="QString" value="0"/>
+                <Option name="outline_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="outline_width_unit" type="QString" value="MM"/>
+                <Option name="scale_method" type="QString" value="diameter"/>
+                <Option name="size" type="QString" value="2"/>
+                <Option name="size_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="size_unit" type="QString" value="MM"/>
+                <Option name="vertical_anchor_point" type="QString" value="1"/>
+              </Option>
+              <prop k="angle" v="0"/>
+              <prop k="cap_style" v="square"/>
+              <prop k="color" v="141,90,153,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <Option/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks type="StringList">
+          <Option type="QString" value=""/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <legend type="default-vector" showLabelLegend="0"/>
+      <referencedLayers/>
+      <fieldConfiguration>
+        <field configurationFlags="None" name="id">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="pole_type">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="feed_type">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="plant_item">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="exist_wire">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="p2p_span">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="cfh_drops">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="free_space">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="ladder_acc">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="ring_head">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="capping">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="hazards">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="gps_x">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="gps_y">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" name="" field="id"/>
+        <alias index="1" name="" field="pole_type"/>
+        <alias index="2" name="" field="feed_type"/>
+        <alias index="3" name="" field="plant_item"/>
+        <alias index="4" name="" field="exist_wire"/>
+        <alias index="5" name="" field="p2p_span"/>
+        <alias index="6" name="" field="cfh_drops"/>
+        <alias index="7" name="" field="free_space"/>
+        <alias index="8" name="" field="ladder_acc"/>
+        <alias index="9" name="" field="ring_head"/>
+        <alias index="10" name="" field="capping"/>
+        <alias index="11" name="" field="hazards"/>
+        <alias index="12" name="" field="gps_x"/>
+        <alias index="13" name="" field="gps_y"/>
+      </aliases>
+      <defaults>
+        <default expression="" field="id" applyOnUpdate="0"/>
+        <default expression="" field="pole_type" applyOnUpdate="0"/>
+        <default expression="" field="feed_type" applyOnUpdate="0"/>
+        <default expression="" field="plant_item" applyOnUpdate="0"/>
+        <default expression="" field="exist_wire" applyOnUpdate="0"/>
+        <default expression="" field="p2p_span" applyOnUpdate="0"/>
+        <default expression="" field="cfh_drops" applyOnUpdate="0"/>
+        <default expression="" field="free_space" applyOnUpdate="0"/>
+        <default expression="" field="ladder_acc" applyOnUpdate="0"/>
+        <default expression="" field="ring_head" applyOnUpdate="0"/>
+        <default expression="" field="capping" applyOnUpdate="0"/>
+        <default expression="" field="hazards" applyOnUpdate="0"/>
+        <default expression="" field="gps_x" applyOnUpdate="0"/>
+        <default expression="" field="gps_y" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="id" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="pole_type" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="feed_type" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="plant_item" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="exist_wire" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="p2p_span" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="cfh_drops" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="free_space" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="ladder_acc" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="ring_head" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="capping" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="hazards" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="gps_x" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="gps_y" constraints="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" field="id" exp=""/>
+        <constraint desc="" field="pole_type" exp=""/>
+        <constraint desc="" field="feed_type" exp=""/>
+        <constraint desc="" field="plant_item" exp=""/>
+        <constraint desc="" field="exist_wire" exp=""/>
+        <constraint desc="" field="p2p_span" exp=""/>
+        <constraint desc="" field="cfh_drops" exp=""/>
+        <constraint desc="" field="free_space" exp=""/>
+        <constraint desc="" field="ladder_acc" exp=""/>
+        <constraint desc="" field="ring_head" exp=""/>
+        <constraint desc="" field="capping" exp=""/>
+        <constraint desc="" field="hazards" exp=""/>
+        <constraint desc="" field="gps_x" exp=""/>
+        <constraint desc="" field="gps_y" exp=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <reuseLastValue/>
+      <dataDefinedFieldProperties/>
+      <widgets/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer wkbType="MultiPoint" simplifyMaxScale="1" minScale="100000000" maxScale="0" autoRefreshEnabled="0" geometry="Point" simplifyLocal="1" styleCategories="AllStyleCategories" refreshOnNotifyMessage="" type="vector" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" simplifyDrawingTol="1" simplifyAlgorithm="0" simplifyDrawingHints="1" labelsEnabled="0" readOnly="0" refreshOnNotifyEnabled="0">
+      <extent>
+        <xmin>496977.18000004923669621</xmin>
+        <ymin>370282.99999945994932204</ymin>
+        <xmax>497508.8400000506080687</xmax>
+        <ymax>370448.84999945806339383</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>-0.5489976299202306</xmin>
+        <ymin>53.22068236596232538</ymin>
+        <xmax>-0.54098687607489593</xmax>
+        <ymax>53.22226971709277876</ymax>
+      </wgs84extent>
+      <id>preprocessed_dp_d7924f12_5ec7_45b5_a6ef_2ce98198fa8b</id>
+      <datasource>./preprocessed_dp.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>preprocessed_dp</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>PROJCRS["OSGB36 / British National Grid",BASEGEOGCRS["OSGB36",DATUM["Ordnance Survey of Great Britain 1936",ELLIPSOID["Airy 1830",6377563.396,299.3249646,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4277]],CONVERSION["British National Grid",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",49,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",-2,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9996012717,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",400000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",-100000,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Engineering survey, topographic mapping."],AREA["United Kingdom (UK) - offshore to boundary of UKCS within 49°45'N to 61°N and 9°W to 2°E; onshore Great Britain (England, Wales and Scotland). Isle of Man onshore."],BBOX[49.75,-9,61.01,2.01]],ID["EPSG",27700]]</wkt>
+          <proj4>+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.9996012717 +x_0=400000 +y_0=-100000 +ellps=airy +units=m +no_defs</proj4>
+          <srsid>2437</srsid>
+          <srid>27700</srid>
+          <authid>EPSG:27700</authid>
+          <description>OSGB36 / British National Grid</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>EPSG:7001</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="windows-1252">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+        <Private>0</Private>
+      </flags>
+      <temporal startExpression="" fixedDuration="0" accumulate="0" enabled="0" startField="" endField="" endExpression="" durationField="" durationUnit="min" mode="0">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <renderer-v2 symbollevels="0" type="singleSymbol" forceraster="0" enableorderby="0">
+        <symbols>
+          <symbol force_rhr="0" name="0" type="marker" alpha="1" clip_to_extent="1">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option name="name" type="QString" value=""/>
+                <Option name="properties"/>
+                <Option name="type" type="QString" value="collection"/>
+              </Option>
+            </data_defined_properties>
+            <layer class="SimpleMarker" enabled="1" locked="0" pass="0">
+              <Option type="Map">
+                <Option name="angle" type="QString" value="0"/>
+                <Option name="cap_style" type="QString" value="square"/>
+                <Option name="color" type="QString" value="243,166,178,255"/>
+                <Option name="horizontal_anchor_point" type="QString" value="1"/>
+                <Option name="joinstyle" type="QString" value="bevel"/>
+                <Option name="name" type="QString" value="circle"/>
+                <Option name="offset" type="QString" value="0,0"/>
+                <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="offset_unit" type="QString" value="MM"/>
+                <Option name="outline_color" type="QString" value="35,35,35,255"/>
+                <Option name="outline_style" type="QString" value="solid"/>
+                <Option name="outline_width" type="QString" value="0"/>
+                <Option name="outline_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="outline_width_unit" type="QString" value="MM"/>
+                <Option name="scale_method" type="QString" value="diameter"/>
+                <Option name="size" type="QString" value="2"/>
+                <Option name="size_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="size_unit" type="QString" value="MM"/>
+                <Option name="vertical_anchor_point" type="QString" value="1"/>
+              </Option>
+              <prop k="angle" v="0"/>
+              <prop k="cap_style" v="square"/>
+              <prop k="color" v="243,166,178,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <Option/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks type="StringList">
+          <Option type="QString" value=""/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <legend type="default-vector" showLabelLegend="0"/>
+      <referencedLayers/>
+      <fieldConfiguration>
+        <field configurationFlags="None" name="gid">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="pon_homes">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="p2p_homes">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="include">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="locked">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="connection">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="identifier">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="pon_adop">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="p2p_adop">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="pon_m_rev">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="p2p_m_rev">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="bldg_id">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="height">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="floorcount">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="prop_type">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="loc_desc">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="org_name">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="postcode">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="bld_name2">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="loc_issue">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="uprn">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="cfh_type">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="bld_num">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="streetname">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="forced_cbl">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="bld_name">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="streetna_1">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="gistool_id">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="qc_check">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="exc_reason">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="category">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="cat_type">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="rfs_status">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="merge_id">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="toid">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="featurecod">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="version">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="versiondat">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="theme">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="themecount">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="changedate">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="reasonforc">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="changehi01">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="descriptiv">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="descript00">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="descript01">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="descript02">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="make">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="physicalle">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="physicalpr">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="anchorposi">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="font">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="orientatio">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="textstring">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="geo_x">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="geo_y">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="colour_cod">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="font_code">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="anchor">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="style_code">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="style_desc">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="layer">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="path">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" name="" field="gid"/>
+        <alias index="1" name="" field="pon_homes"/>
+        <alias index="2" name="" field="p2p_homes"/>
+        <alias index="3" name="" field="include"/>
+        <alias index="4" name="" field="locked"/>
+        <alias index="5" name="" field="connection"/>
+        <alias index="6" name="" field="identifier"/>
+        <alias index="7" name="" field="pon_adop"/>
+        <alias index="8" name="" field="p2p_adop"/>
+        <alias index="9" name="" field="pon_m_rev"/>
+        <alias index="10" name="" field="p2p_m_rev"/>
+        <alias index="11" name="" field="bldg_id"/>
+        <alias index="12" name="" field="height"/>
+        <alias index="13" name="" field="floorcount"/>
+        <alias index="14" name="" field="prop_type"/>
+        <alias index="15" name="" field="loc_desc"/>
+        <alias index="16" name="" field="org_name"/>
+        <alias index="17" name="" field="postcode"/>
+        <alias index="18" name="" field="bld_name2"/>
+        <alias index="19" name="" field="loc_issue"/>
+        <alias index="20" name="" field="uprn"/>
+        <alias index="21" name="" field="cfh_type"/>
+        <alias index="22" name="" field="bld_num"/>
+        <alias index="23" name="" field="streetname"/>
+        <alias index="24" name="" field="forced_cbl"/>
+        <alias index="25" name="" field="bld_name"/>
+        <alias index="26" name="" field="streetna_1"/>
+        <alias index="27" name="" field="gistool_id"/>
+        <alias index="28" name="" field="qc_check"/>
+        <alias index="29" name="" field="exc_reason"/>
+        <alias index="30" name="" field="category"/>
+        <alias index="31" name="" field="cat_type"/>
+        <alias index="32" name="" field="rfs_status"/>
+        <alias index="33" name="" field="merge_id"/>
+        <alias index="34" name="" field="toid"/>
+        <alias index="35" name="" field="featurecod"/>
+        <alias index="36" name="" field="version"/>
+        <alias index="37" name="" field="versiondat"/>
+        <alias index="38" name="" field="theme"/>
+        <alias index="39" name="" field="themecount"/>
+        <alias index="40" name="" field="changedate"/>
+        <alias index="41" name="" field="reasonforc"/>
+        <alias index="42" name="" field="changehi01"/>
+        <alias index="43" name="" field="descriptiv"/>
+        <alias index="44" name="" field="descript00"/>
+        <alias index="45" name="" field="descript01"/>
+        <alias index="46" name="" field="descript02"/>
+        <alias index="47" name="" field="make"/>
+        <alias index="48" name="" field="physicalle"/>
+        <alias index="49" name="" field="physicalpr"/>
+        <alias index="50" name="" field="anchorposi"/>
+        <alias index="51" name="" field="font"/>
+        <alias index="52" name="" field="orientatio"/>
+        <alias index="53" name="" field="textstring"/>
+        <alias index="54" name="" field="geo_x"/>
+        <alias index="55" name="" field="geo_y"/>
+        <alias index="56" name="" field="colour_cod"/>
+        <alias index="57" name="" field="font_code"/>
+        <alias index="58" name="" field="anchor"/>
+        <alias index="59" name="" field="style_code"/>
+        <alias index="60" name="" field="style_desc"/>
+        <alias index="61" name="" field="layer"/>
+        <alias index="62" name="" field="path"/>
+      </aliases>
+      <defaults>
+        <default expression="" field="gid" applyOnUpdate="0"/>
+        <default expression="" field="pon_homes" applyOnUpdate="0"/>
+        <default expression="" field="p2p_homes" applyOnUpdate="0"/>
+        <default expression="" field="include" applyOnUpdate="0"/>
+        <default expression="" field="locked" applyOnUpdate="0"/>
+        <default expression="" field="connection" applyOnUpdate="0"/>
+        <default expression="" field="identifier" applyOnUpdate="0"/>
+        <default expression="" field="pon_adop" applyOnUpdate="0"/>
+        <default expression="" field="p2p_adop" applyOnUpdate="0"/>
+        <default expression="" field="pon_m_rev" applyOnUpdate="0"/>
+        <default expression="" field="p2p_m_rev" applyOnUpdate="0"/>
+        <default expression="" field="bldg_id" applyOnUpdate="0"/>
+        <default expression="" field="height" applyOnUpdate="0"/>
+        <default expression="" field="floorcount" applyOnUpdate="0"/>
+        <default expression="" field="prop_type" applyOnUpdate="0"/>
+        <default expression="" field="loc_desc" applyOnUpdate="0"/>
+        <default expression="" field="org_name" applyOnUpdate="0"/>
+        <default expression="" field="postcode" applyOnUpdate="0"/>
+        <default expression="" field="bld_name2" applyOnUpdate="0"/>
+        <default expression="" field="loc_issue" applyOnUpdate="0"/>
+        <default expression="" field="uprn" applyOnUpdate="0"/>
+        <default expression="" field="cfh_type" applyOnUpdate="0"/>
+        <default expression="" field="bld_num" applyOnUpdate="0"/>
+        <default expression="" field="streetname" applyOnUpdate="0"/>
+        <default expression="" field="forced_cbl" applyOnUpdate="0"/>
+        <default expression="" field="bld_name" applyOnUpdate="0"/>
+        <default expression="" field="streetna_1" applyOnUpdate="0"/>
+        <default expression="" field="gistool_id" applyOnUpdate="0"/>
+        <default expression="" field="qc_check" applyOnUpdate="0"/>
+        <default expression="" field="exc_reason" applyOnUpdate="0"/>
+        <default expression="" field="category" applyOnUpdate="0"/>
+        <default expression="" field="cat_type" applyOnUpdate="0"/>
+        <default expression="" field="rfs_status" applyOnUpdate="0"/>
+        <default expression="" field="merge_id" applyOnUpdate="0"/>
+        <default expression="" field="toid" applyOnUpdate="0"/>
+        <default expression="" field="featurecod" applyOnUpdate="0"/>
+        <default expression="" field="version" applyOnUpdate="0"/>
+        <default expression="" field="versiondat" applyOnUpdate="0"/>
+        <default expression="" field="theme" applyOnUpdate="0"/>
+        <default expression="" field="themecount" applyOnUpdate="0"/>
+        <default expression="" field="changedate" applyOnUpdate="0"/>
+        <default expression="" field="reasonforc" applyOnUpdate="0"/>
+        <default expression="" field="changehi01" applyOnUpdate="0"/>
+        <default expression="" field="descriptiv" applyOnUpdate="0"/>
+        <default expression="" field="descript00" applyOnUpdate="0"/>
+        <default expression="" field="descript01" applyOnUpdate="0"/>
+        <default expression="" field="descript02" applyOnUpdate="0"/>
+        <default expression="" field="make" applyOnUpdate="0"/>
+        <default expression="" field="physicalle" applyOnUpdate="0"/>
+        <default expression="" field="physicalpr" applyOnUpdate="0"/>
+        <default expression="" field="anchorposi" applyOnUpdate="0"/>
+        <default expression="" field="font" applyOnUpdate="0"/>
+        <default expression="" field="orientatio" applyOnUpdate="0"/>
+        <default expression="" field="textstring" applyOnUpdate="0"/>
+        <default expression="" field="geo_x" applyOnUpdate="0"/>
+        <default expression="" field="geo_y" applyOnUpdate="0"/>
+        <default expression="" field="colour_cod" applyOnUpdate="0"/>
+        <default expression="" field="font_code" applyOnUpdate="0"/>
+        <default expression="" field="anchor" applyOnUpdate="0"/>
+        <default expression="" field="style_code" applyOnUpdate="0"/>
+        <default expression="" field="style_desc" applyOnUpdate="0"/>
+        <default expression="" field="layer" applyOnUpdate="0"/>
+        <default expression="" field="path" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="gid" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="pon_homes" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="p2p_homes" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="include" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="locked" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="connection" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="identifier" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="pon_adop" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="p2p_adop" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="pon_m_rev" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="p2p_m_rev" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="bldg_id" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="height" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="floorcount" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="prop_type" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="loc_desc" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="org_name" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="postcode" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="bld_name2" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="loc_issue" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="uprn" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="cfh_type" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="bld_num" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="streetname" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="forced_cbl" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="bld_name" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="streetna_1" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="gistool_id" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="qc_check" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="exc_reason" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="category" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="cat_type" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="rfs_status" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="merge_id" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="toid" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="featurecod" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="version" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="versiondat" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="theme" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="themecount" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="changedate" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="reasonforc" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="changehi01" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="descriptiv" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="descript00" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="descript01" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="descript02" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="make" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="physicalle" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="physicalpr" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="anchorposi" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="font" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="orientatio" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="textstring" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="geo_x" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="geo_y" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="colour_cod" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="font_code" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="anchor" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="style_code" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="style_desc" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="layer" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="path" constraints="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" field="gid" exp=""/>
+        <constraint desc="" field="pon_homes" exp=""/>
+        <constraint desc="" field="p2p_homes" exp=""/>
+        <constraint desc="" field="include" exp=""/>
+        <constraint desc="" field="locked" exp=""/>
+        <constraint desc="" field="connection" exp=""/>
+        <constraint desc="" field="identifier" exp=""/>
+        <constraint desc="" field="pon_adop" exp=""/>
+        <constraint desc="" field="p2p_adop" exp=""/>
+        <constraint desc="" field="pon_m_rev" exp=""/>
+        <constraint desc="" field="p2p_m_rev" exp=""/>
+        <constraint desc="" field="bldg_id" exp=""/>
+        <constraint desc="" field="height" exp=""/>
+        <constraint desc="" field="floorcount" exp=""/>
+        <constraint desc="" field="prop_type" exp=""/>
+        <constraint desc="" field="loc_desc" exp=""/>
+        <constraint desc="" field="org_name" exp=""/>
+        <constraint desc="" field="postcode" exp=""/>
+        <constraint desc="" field="bld_name2" exp=""/>
+        <constraint desc="" field="loc_issue" exp=""/>
+        <constraint desc="" field="uprn" exp=""/>
+        <constraint desc="" field="cfh_type" exp=""/>
+        <constraint desc="" field="bld_num" exp=""/>
+        <constraint desc="" field="streetname" exp=""/>
+        <constraint desc="" field="forced_cbl" exp=""/>
+        <constraint desc="" field="bld_name" exp=""/>
+        <constraint desc="" field="streetna_1" exp=""/>
+        <constraint desc="" field="gistool_id" exp=""/>
+        <constraint desc="" field="qc_check" exp=""/>
+        <constraint desc="" field="exc_reason" exp=""/>
+        <constraint desc="" field="category" exp=""/>
+        <constraint desc="" field="cat_type" exp=""/>
+        <constraint desc="" field="rfs_status" exp=""/>
+        <constraint desc="" field="merge_id" exp=""/>
+        <constraint desc="" field="toid" exp=""/>
+        <constraint desc="" field="featurecod" exp=""/>
+        <constraint desc="" field="version" exp=""/>
+        <constraint desc="" field="versiondat" exp=""/>
+        <constraint desc="" field="theme" exp=""/>
+        <constraint desc="" field="themecount" exp=""/>
+        <constraint desc="" field="changedate" exp=""/>
+        <constraint desc="" field="reasonforc" exp=""/>
+        <constraint desc="" field="changehi01" exp=""/>
+        <constraint desc="" field="descriptiv" exp=""/>
+        <constraint desc="" field="descript00" exp=""/>
+        <constraint desc="" field="descript01" exp=""/>
+        <constraint desc="" field="descript02" exp=""/>
+        <constraint desc="" field="make" exp=""/>
+        <constraint desc="" field="physicalle" exp=""/>
+        <constraint desc="" field="physicalpr" exp=""/>
+        <constraint desc="" field="anchorposi" exp=""/>
+        <constraint desc="" field="font" exp=""/>
+        <constraint desc="" field="orientatio" exp=""/>
+        <constraint desc="" field="textstring" exp=""/>
+        <constraint desc="" field="geo_x" exp=""/>
+        <constraint desc="" field="geo_y" exp=""/>
+        <constraint desc="" field="colour_cod" exp=""/>
+        <constraint desc="" field="font_code" exp=""/>
+        <constraint desc="" field="anchor" exp=""/>
+        <constraint desc="" field="style_code" exp=""/>
+        <constraint desc="" field="style_desc" exp=""/>
+        <constraint desc="" field="layer" exp=""/>
+        <constraint desc="" field="path" exp=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <reuseLastValue/>
+      <dataDefinedFieldProperties/>
+      <widgets/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer wkbType="Point" simplifyMaxScale="1" minScale="100000000" maxScale="0" autoRefreshEnabled="0" geometry="Point" simplifyLocal="1" styleCategories="AllStyleCategories" refreshOnNotifyMessage="" type="vector" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" simplifyDrawingTol="1" simplifyAlgorithm="0" simplifyDrawingHints="1" labelsEnabled="0" readOnly="0" refreshOnNotifyEnabled="0">
+      <id>referencepoints_ee7e484c_36cc_4338_98c6_84622b97f5fa</id>
+      <datasource>./referencepoints.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>referencepoints</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>PROJCRS["OSGB36 / British National Grid",BASEGEOGCRS["OSGB36",DATUM["Ordnance Survey of Great Britain 1936",ELLIPSOID["Airy 1830",6377563.396,299.3249646,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4277]],CONVERSION["British National Grid",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",49,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",-2,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9996012717,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",400000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",-100000,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Engineering survey, topographic mapping."],AREA["United Kingdom (UK) - offshore to boundary of UKCS within 49°45'N to 61°N and 9°W to 2°E; onshore Great Britain (England, Wales and Scotland). Isle of Man onshore."],BBOX[49.75,-9,61.01,2.01]],ID["EPSG",27700]]</wkt>
+          <proj4>+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.9996012717 +x_0=400000 +y_0=-100000 +ellps=airy +units=m +no_defs</proj4>
+          <srsid>2437</srsid>
+          <srid>27700</srid>
+          <authid>EPSG:27700</authid>
+          <description>OSGB36 / British National Grid</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>EPSG:7001</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+        <Private>0</Private>
+      </flags>
+      <temporal startExpression="" fixedDuration="0" accumulate="0" enabled="0" startField="" endField="" endExpression="" durationField="" durationUnit="min" mode="0">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <renderer-v2 symbollevels="0" type="singleSymbol" forceraster="0" enableorderby="0">
+        <symbols>
+          <symbol force_rhr="0" name="0" type="marker" alpha="1" clip_to_extent="1">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option name="name" type="QString" value=""/>
+                <Option name="properties"/>
+                <Option name="type" type="QString" value="collection"/>
+              </Option>
+            </data_defined_properties>
+            <layer class="SimpleMarker" enabled="1" locked="0" pass="0">
+              <Option type="Map">
+                <Option name="angle" type="QString" value="0"/>
+                <Option name="cap_style" type="QString" value="square"/>
+                <Option name="color" type="QString" value="114,155,111,255"/>
+                <Option name="horizontal_anchor_point" type="QString" value="1"/>
+                <Option name="joinstyle" type="QString" value="bevel"/>
+                <Option name="name" type="QString" value="circle"/>
+                <Option name="offset" type="QString" value="0,0"/>
+                <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="offset_unit" type="QString" value="MM"/>
+                <Option name="outline_color" type="QString" value="35,35,35,255"/>
+                <Option name="outline_style" type="QString" value="solid"/>
+                <Option name="outline_width" type="QString" value="0"/>
+                <Option name="outline_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="outline_width_unit" type="QString" value="MM"/>
+                <Option name="scale_method" type="QString" value="diameter"/>
+                <Option name="size" type="QString" value="2"/>
+                <Option name="size_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="size_unit" type="QString" value="MM"/>
+                <Option name="vertical_anchor_point" type="QString" value="1"/>
+              </Option>
+              <prop k="angle" v="0"/>
+              <prop k="cap_style" v="square"/>
+              <prop k="color" v="114,155,111,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <Option/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks type="StringList">
+          <Option type="QString" value=""/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <legend type="default-vector" showLabelLegend="0"/>
+      <referencedLayers/>
+      <fieldConfiguration>
+        <field configurationFlags="None" name="id">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="struct_id">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="fed_type">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" name="" field="id"/>
+        <alias index="1" name="" field="struct_id"/>
+        <alias index="2" name="" field="fed_type"/>
+      </aliases>
+      <defaults>
+        <default expression="" field="id" applyOnUpdate="0"/>
+        <default expression="" field="struct_id" applyOnUpdate="0"/>
+        <default expression="" field="fed_type" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="id" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="struct_id" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="fed_type" constraints="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" field="id" exp=""/>
+        <constraint desc="" field="struct_id" exp=""/>
+        <constraint desc="" field="fed_type" exp=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <reuseLastValue/>
+      <dataDefinedFieldProperties/>
+      <widgets/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer wkbType="Point" simplifyMaxScale="1" minScale="100000000" maxScale="0" autoRefreshEnabled="0" geometry="Point" simplifyLocal="1" styleCategories="AllStyleCategories" refreshOnNotifyMessage="" type="vector" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" simplifyDrawingTol="1" simplifyAlgorithm="0" simplifyDrawingHints="1" labelsEnabled="0" readOnly="0" refreshOnNotifyEnabled="0">
+      <extent>
+        <xmin>497014.63190662337001413</xmin>
+        <ymin>370318.04864614480175078</ymin>
+        <xmax>497491.51932138210395351</xmax>
+        <ymax>370433.80245601909700781</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>-0.54842625547105561</xmin>
+        <ymin>53.22100047249855947</ymin>
+        <xmax>-0.54125080062357322</xmax>
+        <ymax>53.22212768242854253</ymax>
+      </wgs84extent>
+      <id>structures_b80a284a_c952_481e_a90d_1d88157ec7fd</id>
+      <datasource>./structures.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>structures</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>PROJCRS["OSGB36 / British National Grid",BASEGEOGCRS["OSGB36",DATUM["Ordnance Survey of Great Britain 1936",ELLIPSOID["Airy 1830",6377563.396,299.3249646,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4277]],CONVERSION["British National Grid",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",49,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",-2,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9996012717,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",400000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",-100000,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Engineering survey, topographic mapping."],AREA["United Kingdom (UK) - offshore to boundary of UKCS within 49°45'N to 61°N and 9°W to 2°E; onshore Great Britain (England, Wales and Scotland). Isle of Man onshore."],BBOX[49.75,-9,61.01,2.01]],ID["EPSG",27700]]</wkt>
+          <proj4>+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.9996012717 +x_0=400000 +y_0=-100000 +ellps=airy +units=m +no_defs</proj4>
+          <srsid>2437</srsid>
+          <srid>27700</srid>
+          <authid>EPSG:27700</authid>
+          <description>OSGB36 / British National Grid</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>EPSG:7001</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="windows-1252">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+        <Private>0</Private>
+      </flags>
+      <temporal startExpression="" fixedDuration="0" accumulate="0" enabled="0" startField="" endField="" endExpression="" durationField="" durationUnit="min" mode="0">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <renderer-v2 symbollevels="0" type="singleSymbol" forceraster="0" enableorderby="0">
+        <symbols>
+          <symbol force_rhr="0" name="0" type="marker" alpha="1" clip_to_extent="1">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option name="name" type="QString" value=""/>
+                <Option name="properties"/>
+                <Option name="type" type="QString" value="collection"/>
+              </Option>
+            </data_defined_properties>
+            <layer class="SimpleMarker" enabled="1" locked="0" pass="0">
+              <Option type="Map">
+                <Option name="angle" type="QString" value="0"/>
+                <Option name="cap_style" type="QString" value="square"/>
+                <Option name="color" type="QString" value="213,180,60,255"/>
+                <Option name="horizontal_anchor_point" type="QString" value="1"/>
+                <Option name="joinstyle" type="QString" value="bevel"/>
+                <Option name="name" type="QString" value="circle"/>
+                <Option name="offset" type="QString" value="0,0"/>
+                <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="offset_unit" type="QString" value="MM"/>
+                <Option name="outline_color" type="QString" value="35,35,35,255"/>
+                <Option name="outline_style" type="QString" value="solid"/>
+                <Option name="outline_width" type="QString" value="0"/>
+                <Option name="outline_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="outline_width_unit" type="QString" value="MM"/>
+                <Option name="scale_method" type="QString" value="diameter"/>
+                <Option name="size" type="QString" value="2"/>
+                <Option name="size_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="size_unit" type="QString" value="MM"/>
+                <Option name="vertical_anchor_point" type="QString" value="1"/>
+              </Option>
+              <prop k="angle" v="0"/>
+              <prop k="cap_style" v="square"/>
+              <prop k="color" v="213,180,60,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <Option/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks type="StringList">
+          <Option type="QString" value=""/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <legend type="default-vector" showLabelLegend="0"/>
+      <referencedLayers/>
+      <fieldConfiguration>
+        <field configurationFlags="None" name="gid">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="gistool_id">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="exchange">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="plant_item">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="obj_class">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="statuscode">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="type_name">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="category">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="struc_name">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="object_id">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="rotation">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="id">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="pole_type">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="feed_type">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="exist_wire">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="p2p_span">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="cfh_drops">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="free_space">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="ladder_acc">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="ring_head">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="capping">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="hazards">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="gps_x">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="gps_y">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="vertex_pos">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="vertex_ind">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="vertex_par">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="vertex_p_1">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="distance">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="angle">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="polename">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="layer">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="path">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="struct_id">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" name="" field="gid"/>
+        <alias index="1" name="" field="gistool_id"/>
+        <alias index="2" name="" field="exchange"/>
+        <alias index="3" name="" field="plant_item"/>
+        <alias index="4" name="" field="obj_class"/>
+        <alias index="5" name="" field="statuscode"/>
+        <alias index="6" name="" field="type_name"/>
+        <alias index="7" name="" field="category"/>
+        <alias index="8" name="" field="struc_name"/>
+        <alias index="9" name="" field="object_id"/>
+        <alias index="10" name="" field="rotation"/>
+        <alias index="11" name="" field="id"/>
+        <alias index="12" name="" field="pole_type"/>
+        <alias index="13" name="" field="feed_type"/>
+        <alias index="14" name="" field="exist_wire"/>
+        <alias index="15" name="" field="p2p_span"/>
+        <alias index="16" name="" field="cfh_drops"/>
+        <alias index="17" name="" field="free_space"/>
+        <alias index="18" name="" field="ladder_acc"/>
+        <alias index="19" name="" field="ring_head"/>
+        <alias index="20" name="" field="capping"/>
+        <alias index="21" name="" field="hazards"/>
+        <alias index="22" name="" field="gps_x"/>
+        <alias index="23" name="" field="gps_y"/>
+        <alias index="24" name="" field="vertex_pos"/>
+        <alias index="25" name="" field="vertex_ind"/>
+        <alias index="26" name="" field="vertex_par"/>
+        <alias index="27" name="" field="vertex_p_1"/>
+        <alias index="28" name="" field="distance"/>
+        <alias index="29" name="" field="angle"/>
+        <alias index="30" name="" field="polename"/>
+        <alias index="31" name="" field="layer"/>
+        <alias index="32" name="" field="path"/>
+        <alias index="33" name="" field="struct_id"/>
+      </aliases>
+      <defaults>
+        <default expression="" field="gid" applyOnUpdate="0"/>
+        <default expression="" field="gistool_id" applyOnUpdate="0"/>
+        <default expression="" field="exchange" applyOnUpdate="0"/>
+        <default expression="" field="plant_item" applyOnUpdate="0"/>
+        <default expression="" field="obj_class" applyOnUpdate="0"/>
+        <default expression="" field="statuscode" applyOnUpdate="0"/>
+        <default expression="" field="type_name" applyOnUpdate="0"/>
+        <default expression="" field="category" applyOnUpdate="0"/>
+        <default expression="" field="struc_name" applyOnUpdate="0"/>
+        <default expression="" field="object_id" applyOnUpdate="0"/>
+        <default expression="" field="rotation" applyOnUpdate="0"/>
+        <default expression="" field="id" applyOnUpdate="0"/>
+        <default expression="" field="pole_type" applyOnUpdate="0"/>
+        <default expression="" field="feed_type" applyOnUpdate="0"/>
+        <default expression="" field="exist_wire" applyOnUpdate="0"/>
+        <default expression="" field="p2p_span" applyOnUpdate="0"/>
+        <default expression="" field="cfh_drops" applyOnUpdate="0"/>
+        <default expression="" field="free_space" applyOnUpdate="0"/>
+        <default expression="" field="ladder_acc" applyOnUpdate="0"/>
+        <default expression="" field="ring_head" applyOnUpdate="0"/>
+        <default expression="" field="capping" applyOnUpdate="0"/>
+        <default expression="" field="hazards" applyOnUpdate="0"/>
+        <default expression="" field="gps_x" applyOnUpdate="0"/>
+        <default expression="" field="gps_y" applyOnUpdate="0"/>
+        <default expression="" field="vertex_pos" applyOnUpdate="0"/>
+        <default expression="" field="vertex_ind" applyOnUpdate="0"/>
+        <default expression="" field="vertex_par" applyOnUpdate="0"/>
+        <default expression="" field="vertex_p_1" applyOnUpdate="0"/>
+        <default expression="" field="distance" applyOnUpdate="0"/>
+        <default expression="" field="angle" applyOnUpdate="0"/>
+        <default expression="" field="polename" applyOnUpdate="0"/>
+        <default expression="" field="layer" applyOnUpdate="0"/>
+        <default expression="" field="path" applyOnUpdate="0"/>
+        <default expression="" field="struct_id" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="gid" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="gistool_id" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="exchange" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="plant_item" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="obj_class" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="statuscode" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="type_name" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="category" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="struc_name" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="object_id" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="rotation" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="id" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="pole_type" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="feed_type" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="exist_wire" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="p2p_span" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="cfh_drops" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="free_space" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="ladder_acc" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="ring_head" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="capping" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="hazards" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="gps_x" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="gps_y" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="vertex_pos" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="vertex_ind" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="vertex_par" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="vertex_p_1" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="distance" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="angle" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="polename" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="layer" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="path" constraints="0"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" field="struct_id" constraints="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" field="gid" exp=""/>
+        <constraint desc="" field="gistool_id" exp=""/>
+        <constraint desc="" field="exchange" exp=""/>
+        <constraint desc="" field="plant_item" exp=""/>
+        <constraint desc="" field="obj_class" exp=""/>
+        <constraint desc="" field="statuscode" exp=""/>
+        <constraint desc="" field="type_name" exp=""/>
+        <constraint desc="" field="category" exp=""/>
+        <constraint desc="" field="struc_name" exp=""/>
+        <constraint desc="" field="object_id" exp=""/>
+        <constraint desc="" field="rotation" exp=""/>
+        <constraint desc="" field="id" exp=""/>
+        <constraint desc="" field="pole_type" exp=""/>
+        <constraint desc="" field="feed_type" exp=""/>
+        <constraint desc="" field="exist_wire" exp=""/>
+        <constraint desc="" field="p2p_span" exp=""/>
+        <constraint desc="" field="cfh_drops" exp=""/>
+        <constraint desc="" field="free_space" exp=""/>
+        <constraint desc="" field="ladder_acc" exp=""/>
+        <constraint desc="" field="ring_head" exp=""/>
+        <constraint desc="" field="capping" exp=""/>
+        <constraint desc="" field="hazards" exp=""/>
+        <constraint desc="" field="gps_x" exp=""/>
+        <constraint desc="" field="gps_y" exp=""/>
+        <constraint desc="" field="vertex_pos" exp=""/>
+        <constraint desc="" field="vertex_ind" exp=""/>
+        <constraint desc="" field="vertex_par" exp=""/>
+        <constraint desc="" field="vertex_p_1" exp=""/>
+        <constraint desc="" field="distance" exp=""/>
+        <constraint desc="" field="angle" exp=""/>
+        <constraint desc="" field="polename" exp=""/>
+        <constraint desc="" field="layer" exp=""/>
+        <constraint desc="" field="path" exp=""/>
+        <constraint desc="" field="struct_id" exp=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <reuseLastValue/>
+      <dataDefinedFieldProperties/>
+      <widgets/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+  </projectlayers>
+  <layerorder>
+    <layer id="cabinets_ca6c0e30_bc1a_459b_82f9_bdd756a66721"/>
+    <layer id="cluster_bndry_c95d70d7_babd_420e_93e4_089755cdca43"/>
+    <layer id="googlepoles_d4b350e6_883e_4947_9613_98f96ffd98cd"/>
+    <layer id="Mdu_931e2ee3_ec2f_4749_b6a7_19a4eae99713"/>
+    <layer id="pnboundary_b4bc9501_a247_485d_a512_a88eea9f546e"/>
+    <layer id="poles_at_5mtrs_8ecce595_b97a_43be_8d8b_77e8457ec65a"/>
+    <layer id="preprocessed_dp_d7924f12_5ec7_45b5_a6ef_2ce98198fa8b"/>
+    <layer id="referencepoints_ee7e484c_36cc_4338_98c6_84622b97f5fa"/>
+    <layer id="structures_b80a284a_c952_481e_a90d_1d88157ec7fd"/>
+    <layer id="Ugnode_sn_f43d6e25_0d93_484a_bc88_5e6c5a376791"/>
+    <layer id="Google_Hybrid_35ef61a9_887e_4b03_b3bf_1339e8f90b3f"/>
+  </layerorder>
+  <properties>
+    <Digitizing>
+      <AvoidIntersectionsMode type="int">0</AvoidIntersectionsMode>
+    </Digitizing>
+    <Gui>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+    </Gui>
+    <Measurement>
+      <AreaUnits type="QString"></AreaUnits>
+      <DistanceUnits type="QString"></DistanceUnits>
+    </Measurement>
+    <PAL>
+      <CandidatesLinePerCM type="double">5</CandidatesLinePerCM>
+      <CandidatesPolygonPerCM type="double">2.5</CandidatesPolygonPerCM>
+      <DrawRectOnly type="bool">false</DrawRectOnly>
+      <DrawUnplaced type="bool">false</DrawUnplaced>
+      <PlacementEngineVersion type="int">1</PlacementEngineVersion>
+      <SearchMethod type="int">0</SearchMethod>
+      <ShowingAllLabels type="bool">false</ShowingAllLabels>
+      <ShowingCandidates type="bool">false</ShowingCandidates>
+      <ShowingPartialsLabels type="bool">true</ShowingPartialsLabels>
+      <TextFormat type="int">0</TextFormat>
+      <UnplacedColor type="QString">255,0,0,255</UnplacedColor>
+    </PAL>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+    <PositionPrecision>
+      <Automatic type="bool">true</Automatic>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+    </PositionPrecision>
+    <SpatialRefSys>
+      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+    </SpatialRefSys>
+  </properties>
+  <dataDefinedServerProperties>
+    <Option type="Map">
+      <Option name="name" type="QString" value=""/>
+      <Option name="properties"/>
+      <Option name="type" type="QString" value="collection"/>
+    </Option>
+  </dataDefinedServerProperties>
+  <visibility-presets/>
+  <transformContext/>
+  <projectMetadata>
+    <identifier></identifier>
+    <parentidentifier></parentidentifier>
+    <language></language>
+    <type></type>
+    <title></title>
+    <abstract></abstract>
+    <links/>
+    <author>Jyothy</author>
+    <creation>2022-08-17T03:09:32</creation>
+  </projectMetadata>
+  <Annotations/>
+  <Layouts/>
+  <Bookmarks/>
+  <ProjectViewSettings UseProjectScales="0">
+    <Scales/>
+  </ProjectViewSettings>
+  <ProjectTimeSettings timeStepUnit="h" timeStep="1" frameRate="1" cumulativeTemporalRange="0"/>
+  <ProjectDisplaySettings>
+    <BearingFormat id="bearing">
+      <Option type="Map">
+        <Option name="decimal_separator" type="QChar" value=""/>
+        <Option name="decimals" type="int" value="6"/>
+        <Option name="direction_format" type="int" value="0"/>
+        <Option name="rounding_type" type="int" value="0"/>
+        <Option name="show_plus" type="bool" value="false"/>
+        <Option name="show_thousand_separator" type="bool" value="true"/>
+        <Option name="show_trailing_zeros" type="bool" value="false"/>
+        <Option name="thousand_separator" type="QChar" value=""/>
+      </Option>
+    </BearingFormat>
+  </ProjectDisplaySettings>
+</qgis>
